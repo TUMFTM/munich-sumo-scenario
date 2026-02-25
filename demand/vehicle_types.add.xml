@@ -1,0 +1,32 @@
+<vTypeDistribution id="mixed_traffic">
+    
+    <vType id="car_standard" vClass="passenger" guiShape="passenger" 
+           length="4.5" minGap="2.5" maxSpeed="55.55" 
+           accel="2.6" decel="4.5" 
+           sigma="0.2" tau="1.0" 
+           impatience="0.5"
+           lcStrategic="1.0" lcCooperative="2.0" 
+           probability="0.50" color="0,1,0"/>
+
+    <vType id="car_compact" vClass="passenger" guiShape="passenger/hatchback"
+           length="4.0" minGap="2.0" maxSpeed="50.0" 
+           accel="3.0" decel="4.5" 
+           sigma="0.2" tau="1.0" 
+           lcStrategic="1.0" lcCooperative="2.0"
+           probability="0.30" color="0,0,1"/>
+
+    <vType id="car_sporty" vClass="passenger" guiShape="passenger"
+           length="4.6" minGap="2.0" maxSpeed="70.0" speedFactor="1.1" 
+           accel="3.5" decel="5.0" 
+           sigma="0.2" tau="1.0"
+           lcStrategic="1.0" lcCooperative="2.0" lcAssertive="1.0"
+           probability="0.10" color="1,0,0"/>
+
+    <vType id="van_delivery" vClass="delivery" guiShape="delivery"
+           length="6.5" minGap="2.5" maxSpeed="40.0" 
+           accel="2.0" decel="4.0" 
+           sigma="0.2" tau="1.0"
+           lcStrategic="1.0" lcCooperative="2.0"
+           probability="0.10" color="1,1,0"/>
+
+</vTypeDistribution>

@@ -1,0 +1,13 @@
+# SUMO logs and error files
+*.log
+*.err
+
+# SUMO simulation outputs (large XML dumps)
+*tripinfo.xml
+*fcd.xml
+*summary.xml
+*emission.xml
+*vehroutes.xml
+
+# Netedit backups
+*.backup

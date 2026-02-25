@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sumoConfiguration>
+
+    <input>
+        <net-file value="network/munich_scenario.net.xml"/>
+        <route-files value="demand/sampled_routes.rou.xml"/>
+        <additional-files value="demand/vehicle_types.add.xml,network/munich_scenario.poly.xml"/>
+    </input>
+      
+    <time>
+        <begin value="21000"/>
+        <end value="43200"/>
+        <step-length value="1.0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="gui/munich_scenario.view.xml"/>
+    </gui_only>
+    
+    <seed value="42"/>
+    
+</sumoConfiguration>
